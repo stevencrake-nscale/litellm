@@ -103,6 +103,7 @@ spec:
           args:
             - --config
             - /etc/litellm/config.yaml
+            - --detailed_debug
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
